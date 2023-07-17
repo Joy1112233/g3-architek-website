@@ -1,7 +1,110 @@
 /* work sence font from google */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;800&display=swap');
 
-*{
+* {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Style */
+
+header {
+
+    background: rgba(255, 144, 14, 0.10);
+    padding: 30px 240px;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+
+    display: flex;
+
+}
+
+ul a:hover{
+
+    color: #3c71f5;
+    background-color: black;
+   
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+
+}
+
+.nav-header {
+
+    color: #131313;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+li a {
+
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 10px;
+    padding: 10px;
+
+}
+
+.banner-content {
+    width: 862px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.banner-title {
+    color: #131313;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-text {
+
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.primary-button {
+
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.banner-img {
+    width: 1440px;
+    height: 700px;
+
 }
